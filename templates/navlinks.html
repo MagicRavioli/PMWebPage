@@ -1,0 +1,18 @@
+{% for link in links %}
+
+                <li>
+{% if main_page == False and link.subpage is defined %}
+                    <a href="{{ link.subpage }}#Content">{{ link.name }}</a>
+{% else %}
+                    <a href="/home#{{ link.section }}">{{ link.name }}</a>
+{% endif %}
+{% if link.submenu is defined and link.submenu | length %}
+                    <ul>
+{% for section, label in link.submenu.items() %}
+                        <li><a href="{{ link.subpage }}#{{ section }}">{{ label }}</a></li>
+{% endfor %}
+                    </ul>
+{% endif %}
+                </li>
+
+{% endfor %}

@@ -1,0 +1,58 @@
+body {
+    background-color: #414446;
+}
+
+#Banner{
+    background-color: #414446;
+}
+
+#Navigation > ul
+{
+    background-color: #414446;
+}
+
+#Navigation a {
+    color: white;
+    background-color: #414446;
+}
+
+#Navigation a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+#Sections > div:nth-child(odd) {
+    background-color: #041C24;
+    color: #F2FFFC;
+}
+
+#Sections > div:nth-child(even) {
+    background-color: #F2FFFC;
+    color: #041C24;
+}
+
+#Contact .icon-button, #Contact .icon-button a {
+    color: black;
+    text-decoration: none;
+}
+
+#Sections > div:nth-child(odd) #SocialMedia a:hover
+{
+    background-color: #75A58F;
+}
+
+#Sections > div:nth-child(even) #SocialMedia a:hover
+{
+    background-color: #ABF0D1;
+}
+
+#Sections > div:nth-child(odd) .Button {
+    color: #041C24;
+    background-color: #ABF0D1;
+}
+
+#Sections > div:nth-child(even) .Button {
+    color: #F2FFFC;
+    background-color: #75A58F;
+}

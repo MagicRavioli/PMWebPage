@@ -1,0 +1,41 @@
+<div id="Contact">
+<div class="SectionContent">
+<h1>Kontakt</h1>
+<p>Zapraszamy do kontaktu:</p>
+<div class="table">
+<div class="column">
+<div id="Gmail" class="cell"><div class="Icon"></div><div class="Value">chorpiu...<span id="ShowMail" class="Button">Pokaż mail</span></div></div>
+<div id="CellPhone" class="cell"><div class="Icon"></div><div class="Value">Dominik Jarocki<br/>503...</div></div>
+</div>
+<div class="column-separator">
+</div>
+<div class="column">
+<div id="Location" class="cell"><div class="Icon"></div><div class="Value">
+    Poniedziałki 18:00<br/>
+    Pokój 107<br/>
+    <b>Instytut Muzykologii</b> Uniwersytetu Wrocławskiego<br/>
+    Wydział Nauk Historycznych i Pedagogicznych<br/>
+    ul. Szewska 36, 50-139 Wrocław<br/><br/>
+    <a class='Button' href="https://maps.google.com/?q=Szewska%2036%20Wrocław%20Instytut%20Muzykologii" target="_blank">Mapa</a>
+</div></div>
+</div>
+</div>
+<p>Odwiedźcie nas w internecie:</p>
+<div id="SocialMedia">
+    <a id="Facebook" class="icon-button" href="https://www.facebook.com/zespolpiumosso/" target="_blank"><div class="Icon"></div></a>
+    <a id="Instagram" class="icon-button" href="https://www.instagram.com/piumosso.chorkameralny/" target="_blank"><div class="Icon"></div></a>
+    <a id="Youtube" class="icon-button" href="https://www.youtube.com/channel/UCRdxjrqpN6PwYxwhJYnKRvQ" target="_blank"><div class="Icon"></div></a>
+</div>
+</div>
+<script>
+    $(document).ready(function(){
+        $("#ShowMail").click( function(){
+            $.get("get_mail", {},
+                function(data){
+                    $("#Gmail .Value").text(data)
+                }
+            );
+        });
+    });
+</script>
+</div>

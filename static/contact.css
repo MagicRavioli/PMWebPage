@@ -1,0 +1,155 @@
+#Contact .SectionContent
+{
+    text-align: center;
+}
+
+#Contact div
+{
+    text-align: center;
+}
+
+#Contact .table
+{
+    width: 100%;
+}
+
+#Contact .table *
+{
+    margin: 0;
+    padding: 0;
+}
+
+#Contact .table .column-separator
+{
+    display: inline-block;
+    width: 16%
+}
+
+#Contact .table .column
+{
+    vertical-align: middle;
+    display: inline-block;
+    width: 40%;
+}
+
+#Contact .table .column .cell
+{
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#Contact .table .column .cell *
+{
+    margin: 0;
+    padding: 0;
+}
+
+#Contact .table .column .cell .Value
+{
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+#Contact .Value
+{
+    display: inline-block;
+}
+
+#Contact #Gmail .Value .Button
+{
+    margin-left: 10px;
+}
+
+#Contact .cell .Value .Button
+{
+    padding: 5px 20px;
+}
+
+#Contact .icon-button
+{
+    width: 240px;
+    line-height: 100px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#Contact #SocialMedia
+{
+    padding-bottom: 40px;
+}
+
+#ShowMail
+{
+    cursor: pointer;
+}
+
+#Contact .Icon
+{
+    vertical-align: middle;
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background-size: 72px 72px;
+}
+
+#Sections > div:nth-child(odd) #Gmail .Icon
+{
+    background-image: url("../images/icon_mail_for_dark.svg")
+}
+
+#Sections > div:nth-child(even) #Gmail .Icon
+{
+    background-image: url("../images/icon_mail_for_light.svg")
+}
+
+#Sections > div:nth-child(odd) #CellPhone .Icon
+{
+    background-image: url("../images/icon_phone_for_dark.svg")
+}
+
+#Sections > div:nth-child(even) #CellPhone .Icon
+{
+    background-image: url("../images/icon_phone_for_light.svg")
+}
+
+#Sections > div:nth-child(odd) #Location .Icon
+{
+    background-image: url("../images/icon_location_for_dark.svg")
+}
+
+#Sections > div:nth-child(even) #Location .Icon
+{
+    background-image: url("../images/icon_location_for_light.svg")
+}
+
+#Sections > div:nth-child(odd) #Facebook .Icon
+{
+    background-image: url("../images/icon_facebook_for_dark.svg")
+}
+
+#Sections > div:nth-child(even) #Facebook .Icon
+{
+    background-image: url("../images/icon_facebook_for_light.svg")
+}
+
+#Sections > div:nth-child(odd) #Instagram .Icon
+{
+    background-image: url("../images/icon_instagram_for_dark.svg")
+}
+
+#Sections > div:nth-child(even) #Instagram .Icon
+{
+    background-image: url("../images/icon_instagram_for_light.svg")
+}
+
+#Sections > div:nth-child(odd) #Youtube .Icon
+{
+    background-image: url("../images/icon_youtube_for_dark.svg")
+}
+
+#Sections > div:nth-child(even) #Youtube .Icon
+{
+    background-image: url("../images/icon_youtube_for_light.svg")
+}

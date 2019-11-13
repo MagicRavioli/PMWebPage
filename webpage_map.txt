@@ -1,0 +1,20 @@
+Faza I
+- HOME
+    - /#Sections....
+- Choir
+    - /choir#Conductor
+    - /choir#CurrentMemebers
+    - /choir#OldMembers
+    - /choir#Guild <- do wynegocjowania; pierwotnie w HOME
+- News
+    - /news#201908242000
+    - /news/201908242000
+- Contact
+    - /contact#details
+    - /contact#recruitment
+    - /contact#map (?)
+
+Faza II
+- Media
+- Offer
+

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        {{ styles }}
+        <title>{{ title }}</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="Navigation">
+            <ul>
+                <li><a href="home#Content">HOME</a></li>
+                {{ navlinks }}
+            </ul>
+        </div>
+        <div id="Content">
+            {{ content }}
+        </div>
+        <div id="Footer">
+            <div>Copyright &#x24B8; 2019</div>
+            <img src="{{ host }}/images/footer_logo.svg"/>
+        </div>
+    </body>
+</html>
